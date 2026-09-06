@@ -28,7 +28,6 @@ const Login: React.FC = () => {
         navigate("/dashboard", { replace: true });
       }
     } catch (error: any) {
-      console.log(error);
       showError(error?.data?.msg);
     }
   };
