@@ -14,7 +14,6 @@ export const authApi = createApi({
         url: "generateOtp",
         body: data,
         method: "POST",
-        timeout: 10000,
       }),
     }),
     login: builder.mutation({
@@ -22,7 +21,6 @@ export const authApi = createApi({
         url: "login",
         body: data,
         method: "POST",
-        timeout: 10000,
       }),
     }),
     register: builder.mutation({
@@ -30,7 +28,6 @@ export const authApi = createApi({
         url: "register",
         body: data,
         method: "POST",
-        timeout: 10000,
       }),
     }),
     verifyToken: builder.mutation<any, void>({
@@ -44,7 +41,6 @@ export const authApi = createApi({
         url: `forgotPassword`,
         body: email,
         method: "POST",
-        timeout: 10000,
       }),
     }),
     resetPassword: builder.mutation({
@@ -52,7 +48,6 @@ export const authApi = createApi({
         url: `resetPassword`,
         body: data,
         method: "POST",
-        timeout: 10000,
       }),
     }),
     logout: builder.mutation<any, void>({
