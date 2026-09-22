@@ -42,7 +42,7 @@ const Login: React.FC = () => {
           </h1>
           <p className="mt-6 text-sm text-white">
             Awesome, we've created the perfect place for you <br />
-            to store all your documents.
+            to store all your documents
           </p>
         </div>
         <img src={illustration} className="w-60" alt="" />
